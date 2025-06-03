@@ -1,6 +1,17 @@
 return {
   {
+    'windwp/nvim-autopairs',
+    event = 'InsertEnter',
+    opts = {},
+  },
+  {
     'hrsh7th/cmp-nvim-lsp',
+  },
+  {
+    'github/copilot.vim',
+    config = function()
+      require('copilot').setup {}
+    end,
   },
   {
     'L3MON4D3/LuaSnip',
