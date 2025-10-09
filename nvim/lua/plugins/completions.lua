@@ -7,12 +7,12 @@ return {
   {
     'hrsh7th/cmp-nvim-lsp',
   },
-  {
-    'github/copilot.vim',
-    config = function()
-      require('copilot').setup {}
-    end,
-  },
+  --  {
+  --    'github/copilot.vim',
+  --    config = function()
+  --      vim.g.copilot_enabled = false
+  --    end,
+  --  },
   {
     'L3MON4D3/LuaSnip',
     dependencies = {
